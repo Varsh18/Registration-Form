@@ -41,3 +41,6 @@ t2.options.add( new Option("Production Engineering","PROD") );
 document.write("Dept :");
 t2.width=60;
 document.body.appendChild(t2);
+
+//line break
+document.body.appendChild(br);
