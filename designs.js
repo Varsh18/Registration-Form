@@ -54,3 +54,7 @@ t3.id="t3";
 document.write("Reg No. :");
 t3.size=40;
 document.body.appendChild(t3);
+
+//create break Element
+var br=document.createElement("br");
+document.body.append(br);
