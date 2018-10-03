@@ -20,3 +20,7 @@ document.body.appendChild(t1);
 //style for body
 document.body.style.textAlign="center";
 document.body.style.color="#f1c40f";
+
+//create break Element
+const br=document.createElement("br");
+document.body.appendChild(br);
