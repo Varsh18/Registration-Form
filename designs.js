@@ -86,3 +86,5 @@ function init() {
     var input = document.getElementById('t4');
     var autocomplete = new google.maps.places.Autocomplete(input);
 }
+//Event listener
+google.maps.event.addDomListener(window, 'load', init);
