@@ -58,3 +58,12 @@ document.body.appendChild(t3);
 //create break Element
 var br=document.createElement("br");
 document.body.append(br);
+
+
+//text field 4
+var t4=document.createElement("input");
+t4.type="text";
+t4.id="t4";
+document.write("DOB :");
+t4.size=40;
+document.body.appendChild(t4);
