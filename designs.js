@@ -80,3 +80,9 @@ t5.onkeyup="init()";
 document.write("College Name:");
 t5.size=40;
 document.body.appendChild(t5);
+
+//init
+function init() {
+    var input = document.getElementById('t4');
+    var autocomplete = new google.maps.places.Autocomplete(input);
+}
