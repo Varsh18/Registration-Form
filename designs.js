@@ -8,3 +8,11 @@ h1.style.textAlign="center";
 h1.style.color="#c56cf0";
 h1.appendChild(t);
 document.body.appendChild(h1);
+
+//text field 1
+var t1=document.createElement("input");
+t1.type="text";
+t1.id="t1";
+document.write("Name           :");
+a.size=40;
+document.body.appendChild(a);
