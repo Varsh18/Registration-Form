@@ -14,5 +14,9 @@ var t1=document.createElement("input");
 t1.type="text";
 t1.id="t1";
 document.write("Name           :");
-a.size=40;
-document.body.appendChild(a);
+t1.size=40;
+document.body.appendChild(t1);
+
+//style for body
+document.body.style.textAlign="center";
+document.body.style.color="#f1c40f";
