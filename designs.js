@@ -71,3 +71,12 @@ document.body.appendChild(t4);
 //create break Element
 var br=document.createElement("br");
 document.body.append(br);
+
+//text field 5
+var t5=document.createElement("input");
+t5.type="text";
+t5.id="t5";
+t5.onkeyup="init()";
+document.write("College Name:");
+t5.size=40;
+document.body.appendChild(t5);
