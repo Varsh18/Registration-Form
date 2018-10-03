@@ -23,7 +23,7 @@ document.body.style.color="#f1c40f";
 
 //create break Element
 const br=document.createElement("br");
-document.body.appendChild(br);
+document.body.append(br);
 
 
 //text field 2
@@ -42,5 +42,6 @@ document.write("Dept :");
 t2.width=60;
 document.body.appendChild(t2);
 
-//line break
-document.body.appendChild(br);
+//create break Element
+const br=document.createElement("br");
+document.body.append(br);
