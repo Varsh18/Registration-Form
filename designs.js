@@ -22,7 +22,7 @@ document.body.style.textAlign="center";
 document.body.style.color="#f1c40f";
 
 //create break Element
-const br=document.createElement("br");
+var br=document.createElement("br");
 document.body.append(br);
 
 
@@ -43,5 +43,14 @@ t2.width=60;
 document.body.appendChild(t2);
 
 //create break Element
-const br=document.createElement("br");
+var br=document.createElement("br");
 document.body.append(br);
+
+
+//text field 3
+var t3=document.createElement("input");
+t3.type="text";
+t3.id="t3";
+document.write("Reg No. :");
+t3.size=40;
+document.body.appendChild(t3);
