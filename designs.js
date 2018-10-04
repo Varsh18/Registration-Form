@@ -112,3 +112,7 @@ b.type="button";
 b.value="Submit";
 b.setAttribute("onClick","submit()");
 document.body.appendChild(b);
+
+function submit(){
+  alert("Registration successful");
+}
