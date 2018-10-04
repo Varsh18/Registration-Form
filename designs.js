@@ -116,3 +116,6 @@ document.body.appendChild(b);
 function submit(){
   alert("Registration successful");
 }
+
+//adjust line height 
+document.body.style.lineHeight = "3.0em";
