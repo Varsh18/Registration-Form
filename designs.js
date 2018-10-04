@@ -75,16 +75,16 @@ document.body.append(br);
 //text field 5
 var t5=document.createElement("input");
 t5.type="text";
-t5.id="t5";
-t5.onkeyup="init()";
+t5.setAttribute("id","t5");
+t5.setAttribute("onkeyup","init()");
 document.write("College Name:");
 t5.size=40;
 document.body.appendChild(t5);
 
 //init
 function init() {
-    var input = document.getElementById('t4');
+    var input = document.getElementById('t5');
     var autocomplete = new google.maps.places.Autocomplete(input);
 }
-//Event listener
+
 google.maps.event.addDomListener(window, 'load', init);
