@@ -100,3 +100,7 @@ t6.id="t6";
 document.write("College Code:");
 t6.size=40;
 document.body.appendChild(t6);
+
+//create break Element
+var br=document.createElement("br");
+document.body.append(br);
