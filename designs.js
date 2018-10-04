@@ -104,3 +104,11 @@ document.body.appendChild(t6);
 //create break Element
 var br=document.createElement("br");
 document.body.append(br);
+
+
+//button 1
+var b=document.createElement("input");
+b.type="button";
+b.value="Submit";
+b.setAttribute("onClick","submit()");
+document.body.appendChild(b);
