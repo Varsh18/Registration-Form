@@ -89,6 +89,9 @@ function init() {
 
 google.maps.event.addDomListener(window, 'load', init);
 
+//create break Element
+var br=document.createElement("br");
+document.body.append(br);
 
 //text field 6
 var t6=document.createElement("input");
