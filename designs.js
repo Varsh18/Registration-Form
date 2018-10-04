@@ -88,3 +88,12 @@ function init() {
 }
 
 google.maps.event.addDomListener(window, 'load', init);
+
+
+//text field 6
+var t6=document.createElement("input");
+t6.type="text";
+t6.id="t6";
+document.write("College Code:");
+t6.size=40;
+document.body.appendChild(t6);
